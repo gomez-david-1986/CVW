@@ -7,12 +7,12 @@
 <html class="no-js"> <!--<![endif]-->
 
 <?php
-//LOAD EMPLOYEE INFO
+/*//LOAD EMPLOYEE INFO
 $EmpName = $_SESSION['employee_name'];
 $EmpID = $_SESSION['employee_id'];
 $UserLevel = $_SESSION['user_level'];
 $EmpRegisterID = $_SESSION['register_id'];
-$EmpLocationID = $_SESSION['location_id'];
+$EmpLocationID = $_SESSION['location_id'];*/
 ?>
 
 <html lang="en">
