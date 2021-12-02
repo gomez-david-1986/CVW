@@ -121,26 +121,43 @@ require 'Inc/header.php';
                                     bulk of the card's content.</p>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-header text-center">Project Mng.</div>
+                            <img src="/Assets/images/Crm.png" class="card-img-top mt-2" alt="...">
                             <div class="card-body">
-                                This is some text within a card body.
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-header text-center">Custom Calendar</div>
+                            <img src="/Assets/images/Crm.png" class="card-img-top mt-2" alt="...">
                             <div class="card-body">
-                                This is some text within a card body.
+                                <p class="card-text">Custom Calendar for Schelduling Truck Deliveries</p>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-header text-center">TPS</div>
+                            <img src="/Assets/images/Crm.png" class="card-img-top mt-2" alt="...">
                             <div class="card-body">
-                                This is some text within a card body.
+                                <p class="card-text">Transaction Processing System - </p>
                             </div>
                         </div>
-                        <div class="card">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-header text-center">ITS</div>
+                            <img src="/Assets/images/Crm.png" class="card-img-top mt-2" alt="...">
                             <div class="card-body">
-                                This is some text within a card body.
+                                <p class="card-text">Transaction Processing System - </p>
                             </div>
                         </div>
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-header text-center">Web Processing App</div>
+                            <img src="/Assets/images/Crm.png" class="card-img-top mt-2" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Transaction Processing System - </p>
+                            </div>
+                        </div>
+
                     </div>
 
 
