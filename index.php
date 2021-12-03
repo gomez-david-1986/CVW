@@ -111,9 +111,14 @@ require 'Inc/header.php';
                         This is a dark alert—check it out!
                     </div>
                 </div>
+
                 <div class="row" id="dv_projects" style="display: none;">
-                    <div class="row col-12">
-                        <div class="card" style="width: 18rem;">
+
+                    <div class="row align-content-center">
+                        <div class="h2 text-center text-primary">Web Applications</div>
+                    </div>
+                    <div class="row ">
+                        <div class="card  col-auto" style="width: 30%">
                             <div class="card-header text-center">CRM</div>
                             <img src="/Assets/images/Crm.png" class="card-img-top mt-2" alt="...">
                             <div class="card-body">
@@ -121,60 +126,108 @@ require 'Inc/header.php';
                                     bulk of the card's content.</p>
                             </div>
                         </div>
-                        <div class="card" style="width: 18rem;">
+                        <div class="card col-auto" style="width: 30%">
+                            <div class="card-header text-center">Logistic Calendar</div>
+                            <img src="/Assets/images/CAL.png" class="card-img-top mt-2" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Custom Calendar for Scheduling Truck Deliveries</p>
+                            </div>
+                        </div>
+                        <div class="card  col-auto" style="width: 30%">
                             <div class="card-header text-center">Project Mng.</div>
                             <img src="/Assets/images/Crm.png" class="card-img-top mt-2" alt="...">
                             <div class="card-body">
-                                <p class="card-text">Some quick example text to build on the card title and make up the
-                                    bulk of the card's content.</p>
+                                <p class="card-text">Project Management</p>
                             </div>
                         </div>
-                        <div class="card" style="width: 18rem;">
-                            <div class="card-header text-center">Custom Calendar</div>
-                            <img src="/Assets/images/Crm.png" class="card-img-top mt-2" alt="...">
-                            <div class="card-body">
-                                <p class="card-text">Custom Calendar for Schelduling Truck Deliveries</p>
-                            </div>
-                        </div>
-                        <div class="card" style="width: 18rem;">
+                        <div class="card  col-auto" style="width: 30%">
                             <div class="card-header text-center">TPS</div>
-                            <img src="/Assets/images/Crm.png" class="card-img-top mt-2" alt="...">
+                            <img src="/Assets/images/TPS.png" class="card-img-top mt-2" alt="...">
                             <div class="card-body">
-                                <p class="card-text">Transaction Processing System - </p>
+                                <p class="card-text">Transaction Processing System</p>
                             </div>
                         </div>
-                        <div class="card" style="width: 18rem;">
+                    </div>
+
+                    <div class="row align-content-center">
+                        <div class="h2 text-center text-primary">Desk Applications</div>
+                    </div>
+                    <div class="row ">
+
+                        <div class="card  col-auto" style="width: 30%">
                             <div class="card-header text-center">ITS</div>
                             <img src="/Assets/images/Crm.png" class="card-img-top mt-2" alt="...">
                             <div class="card-body">
-                                <p class="card-text">Transaction Processing System - </p>
+                                <p class="card-text">Invoice Tracking System</p>
                             </div>
                         </div>
-                        <div class="card" style="width: 18rem;">
+                        <div class="card  col-auto" style="width: 30%">
                             <div class="card-header text-center">Web Processing App</div>
                             <img src="/Assets/images/Crm.png" class="card-img-top mt-2" alt="...">
                             <div class="card-body">
-                                <p class="card-text">Transaction Processing System - </p>
+                                <p class="card-text">web Processing</p>
+                            </div>
+                        </div>
+
+
+                        <div class="card">
+                            <div class="card-header text-center">Custom Calendar</div>
+                            <img src="/Assets/images/CCAL.png" class="card-img-top img-thumbnail mt-2" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Custom Calendar</p>
+                            </div>
+                        </div>
+
+                        <div class="card  col-auto">
+                            <div class="card-header text-center">Server Monitoring</div>
+                            <img src="/Assets/images/400x200/ServerMonitoring.png"
+                                 class="card-img-top img-thumbnail mt-2" alt="..." height="200px">
+                            <div class="card-body">
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                        <div class="card col-auto">
+                            <div class="card-header text-center">Staff Monitoring</div>
+                            <img src="/Assets/images/400x200/StatusProjWh.png" class="card-img-top img-thumbnail mt-2"
+                                 alt="..." height="200px">
+                            <div class="card-body">
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                        <div class="card  col-auto">
+                            <div class="card-header text-center">Issues Monitoring</div>
+                            <img src="/Assets/images/400x200/CustServ.png" class="card-img-top img-thumbnail mt-2"
+                                 alt="..." height="200px">
+                            <div class="card-body">
+                                <p class="card-text"></p>
                             </div>
                         </div>
 
                     </div>
+                    <div class="row align-content-center">
+                        <div class="h2 text-center text-primary">Server Monitoring</div>
+                    </div>
 
-
+                    <div class="row align-content-center">
+                        <div class="h2 text-center text-primary">Automatication</div>
+                    </div>
                 </div>
-                <div class="row" id="dv_experience" style="display: none;">
-                    <p class="text-black-50">experience</p>
-                </div>
-                <div class="row" id="dv_skills" style="display: none;">
-                    <p class="text-black-50">skills</p>
-                </div>
-                <div class="row" id="dv_hobbies" style="display: none;">
-
-                </div>
-                <div class="row embed-responsive embed-responsive-16by9 m-1 p-1" id="dv_resume" style="display: none;">
 
 
-                    <object class="embed-responsive-item" data="/Assets/Test.pdf" type="application/pdf"></object>
+            </div>
+            <div class="row" id="dv_experience" style="display: none;">
+                <p class="text-black-50">experience</p>
+            </div>
+            <div class="row" id="dv_skills" style="display: none;">
+                <p class="text-black-50">skills</p>
+            </div>
+            <div class="row" id="dv_hobbies" style="display: none;">
+
+            </div>
+            <div class="row embed-responsive embed-responsive-16by9 m-1 p-1" id="dv_resume" style="display: none;">
+
+
+                <object class="embed-responsive-item" data="/Assets/Test.pdf" type="application/pdf"></object>
 
             </div>
 
