@@ -19,7 +19,7 @@ require 'Inc/header.php';
     <!--MAIN CONTENT-->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-2 bg-secondary sticky-top">
+            <div class="col-2 p-1 bg-secondary sticky-top">
                 <div class="d-flex flex-md-column flex-row flex-nowrap bg-secondary align-items-center sticky-top">
                     <div class="d-flex flex-column align-items-center text-center mt-5"><img
                                 class="rounded-circle" width="150px" src="/Assets/images/Profile.png">
@@ -80,45 +80,96 @@ require 'Inc/header.php';
                 </div>
             </div>
 
+            <div class="col-10 min-vh-100">
 
-            <div class="col-10 p-1 min-vh-100">
-                <!-- content -->
+                <div id="dv_about">
+                    <div class="text-center">Test</div>
+                    <div class="row">
+                        <div class="card col-4">
+                            <img src="/Assets/images/Personal/IMG-20201101-WA0033.jpeg"
+                                 class="card-img-top rounded img-thumbnail" alt="...">
+
+                        </div>
+                        <div class="card col-7 ">
+                            <div class="card-body " style="">
+                                Who I am: I'm a self-taught software developer, I have been programming professionally
+                                for the past 15 years I mostly work as an independent contractor and I have to wear many
+                                hats. from Back-end to Front-End Development, Database & System Administrator.
+
+                                I have been intrigued with technology and how things work since I was very young and I
+                                have explored a few fields of engineering going as basic as logical gates to artificial
+                                intelligence.
+                                I enjoy being able to help a company with their technology needs and be able to use
+                                software to help all the aspects of the company from organization to creating a system
+                                where the user can optimize his work and at the same time improve the quality and
+                                revenue.
+
+                                I have developed software for small to medium businesses where the tools that I have
+                                created have helped the company archive new and better results. I'm a fear believer that
+                                technology is here to help us and I used that logic to create software that doesn't
+                                restrict a user from his task but helps him archive his goals faster and more
+                                efficiently.
+                                regardless of the technology that is used I always try to strive to do my best and to
+                                satisfy the customer professional needs.
 
 
-                <div class="row" id="dv_about">
-                    <div class="alert alert-primary" role="alert">
-                        This is a primary alert—check it out!
+                            </div>
+                        </div>
                     </div>
-                    <div class="alert alert-secondary" role="alert">
-                        This is a secondary alert—check it out!
+                    <div class="row">
+                        <div class="card col-7">
+
+                        </div>
+                        <div class="card col-4">
+                            <div class="card-body " style="">
+                                Who I am: I'm a self-taught software developer, I have been programming professionally
+                                for the past 15 years I mostly work as an independent contractor and I have to wear many
+                                hats. from Back-end to Front-End Development, Database & System Administrator.
+
+                                I have been intrigued with technology and how things work since I was very young and I
+                                have explored a few fields of engineering going as basic as logical gates to artificial
+                                intelligence.
+                                I enjoy being able to help a company with their technology needs and be able to use
+                                software to help all the aspects of the company from organization to creating a system
+                                where the user can optimize his work and at the same time improve the quality and
+                                revenue.
+
+                                I have developed software for small to medium businesses where the tools that I have
+                                created have helped the company archive new and better results. I'm a fear believer that
+                                technology is here to help us and I used that logic to create software that doesn't
+                                restrict a user from his task but helps him archive his goals faster and more
+                                efficiently.
+                                regardless of the technology that is used I always try to strive to do my best and to
+                                satisfy the customer professional needs.
+
+
+                            </div>
+                        </div>
                     </div>
-                    <div class="alert alert-success" role="alert">
-                        This is a success alert—check it out!
+
+                    <div class="row">
+                        <div class="card col-4">
+                            <img src="/Assets/images/Personal/canvas.png" class=" rounded img-thumbnail" alt="...">
+
+                        </div>
+                        <div class="card col-7">
+                            <div class="card-body " style="">
+
+                            </div>
+                        </div>
                     </div>
-                    <div class="alert alert-danger" role="alert">
-                        This is a danger alert—check it out!
-                    </div>
-                    <div class="alert alert-warning" role="alert">
-                        This is a warning alert—check it out!
-                    </div>
-                    <div class="alert alert-info" role="alert">
-                        This is a info alert—check it out!
-                    </div>
-                    <div class="alert alert-light" role="alert">
-                        This is a light alert—check it out!
-                    </div>
-                    <div class="alert alert-dark" role="alert">
-                        This is a dark alert—check it out!
-                    </div>
+
+
                 </div>
-
-                <div class="row" id="dv_projects" style="display: none;">
-
-                    <div class="row align-content-center">
-                        <div class="h2 text-center text-primary">Web Applications</div>
+                <div class="row card-columns ml-1" id="dv_projects" style="display: none;">
+                    <div class="row col-12">
+                        <div class="card  align-content-center">
+                            <div class="h2 text-center text-white">Web Applications</div>
+                        </div>
                     </div>
-                    <div class="row ">
-                        <div class="card  col-auto" style="width: 30%">
+
+                    <div class="row card-columns ">
+                        <div class="card col-md-2 col-lg-3   ">
                             <div class="card-header text-center">CRM</div>
                             <img src="/Assets/images/Crm.png" class="card-img-top mt-2" alt="...">
                             <div class="card-body">
@@ -126,51 +177,43 @@ require 'Inc/header.php';
                                     bulk of the card's content.</p>
                             </div>
                         </div>
-                        <div class="card col-auto" style="width: 30%">
+                        <div class="card col-md-2 col-lg-3  ">
                             <div class="card-header text-center">Logistic Calendar</div>
                             <img src="/Assets/images/CAL.png" class="card-img-top mt-2" alt="...">
                             <div class="card-body">
                                 <p class="card-text">Custom Calendar for Scheduling Truck Deliveries</p>
                             </div>
                         </div>
-                        <div class="card  col-auto" style="width: 30%">
+                        <div class="card    col-md-2 col-lg-3  ">
                             <div class="card-header text-center">Project Mng.</div>
                             <img src="/Assets/images/Crm.png" class="card-img-top mt-2" alt="...">
                             <div class="card-body">
                                 <p class="card-text">Project Management</p>
                             </div>
                         </div>
-                        <div class="card  col-auto" style="width: 30%">
+                        <div class="card    col-md-2 col-lg-3  ">
                             <div class="card-header text-center">TPS</div>
                             <img src="/Assets/images/TPS.png" class="card-img-top mt-2" alt="...">
                             <div class="card-body">
                                 <p class="card-text">Transaction Processing System</p>
                             </div>
                         </div>
-                    </div>
 
-                    <div class="row align-content-center">
-                        <div class="h2 text-center text-primary">Desk Applications</div>
-                    </div>
-                    <div class="row ">
-
-                        <div class="card  col-auto" style="width: 30%">
+                        <div class="card    col-md-2 col-lg-3  ">
                             <div class="card-header text-center">ITS</div>
                             <img src="/Assets/images/Crm.png" class="card-img-top mt-2" alt="...">
                             <div class="card-body">
                                 <p class="card-text">Invoice Tracking System</p>
                             </div>
                         </div>
-                        <div class="card  col-auto" style="width: 30%">
+                        <div class="card    col-md-2 col-lg-3  ">
                             <div class="card-header text-center">Web Processing App</div>
                             <img src="/Assets/images/Crm.png" class="card-img-top mt-2" alt="...">
                             <div class="card-body">
                                 <p class="card-text">web Processing</p>
                             </div>
                         </div>
-
-
-                        <div class="card">
+                        <div class="card    col-md-2 col-lg-3  ">
                             <div class="card-header text-center">Custom Calendar</div>
                             <img src="/Assets/images/CCAL.png" class="card-img-top img-thumbnail mt-2" alt="...">
                             <div class="card-body">
@@ -178,62 +221,86 @@ require 'Inc/header.php';
                             </div>
                         </div>
 
-                        <div class="card  col-auto">
+                    </div>
+
+                    <div class="row col-12">
+                        <div class="card  align-content-center">
+                            <div class="h2 text-center text-white">Desktop Applications</div>
+                        </div>
+                    </div>
+
+
+                    <div class="row col-12">
+                        <div class="card  align-content-center">
+                            <div class="h2 text-center text-white">Monitoring</div>
+                        </div>
+                    </div>
+
+                    <div class="row card-columns ">
+                        <div class="card    col-md-2 col-lg-3  ">
                             <div class="card-header text-center">Server Monitoring</div>
                             <img src="/Assets/images/400x200/ServerMonitoring.png"
-                                 class="card-img-top img-thumbnail mt-2" alt="..." height="200px">
+                                 class="card-img-top img-thumbnail mt-2" alt="...">
                             <div class="card-body">
                                 <p class="card-text"></p>
                             </div>
                         </div>
-                        <div class="card col-auto">
+                        <div class="card   col-md-2 col-lg-3  ">
                             <div class="card-header text-center">Staff Monitoring</div>
                             <img src="/Assets/images/400x200/StatusProjWh.png" class="card-img-top img-thumbnail mt-2"
-                                 alt="..." height="200px">
+                                 alt="...">
                             <div class="card-body">
                                 <p class="card-text"></p>
                             </div>
                         </div>
-                        <div class="card  col-auto">
+                        <div class="card    col-md-2 col-lg-3  ">
                             <div class="card-header text-center">Issues Monitoring</div>
                             <img src="/Assets/images/400x200/CustServ.png" class="card-img-top img-thumbnail mt-2"
-                                 alt="..." height="200px">
+                                 alt="...">
                             <div class="card-body">
                                 <p class="card-text"></p>
                             </div>
                         </div>
+                        <div class="card    col-md-2 col-lg-3  ">
+                            <div class="card-header text-center">CRM</div>
+                            <img src="/Assets/images/Crm.png" class="card-img-top mt-2" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
 
                     </div>
-                    <div class="row align-content-center">
-                        <div class="h2 text-center text-primary">Server Monitoring</div>
-                    </div>
 
-                    <div class="row align-content-center">
-                        <div class="h2 text-center text-primary">Automatication</div>
+
+                    <div class="row col-12">
+                        <div class="card  align-content-center">
+                            <div class="h2 text-center text-white">Automatization</div>
+                        </div>
                     </div>
                 </div>
+                <div class="row" id="dv_experience" style="display: none;">
+                    <p class="text-black-50">experience</p>
+                </div>
+                <div class="row" id="dv_skills" style="display: none;">
+                    <p class="text-black-50">skills</p>
+                </div>
+                <div class="row" id="dv_hobbies" style="display: none;">
+
+                </div>
+                <div class="row embed-responsive embed-responsive-16by9  p-1" id="dv_resume" style="display: none;">
 
 
-            </div>
-            <div class="row" id="dv_experience" style="display: none;">
-                <p class="text-black-50">experience</p>
-            </div>
-            <div class="row" id="dv_skills" style="display: none;">
-                <p class="text-black-50">skills</p>
-            </div>
-            <div class="row" id="dv_hobbies" style="display: none;">
+                    <object class="embed-responsive-item" data="/Assets/Test.pdf" type="application/pdf"></object>
 
-            </div>
-            <div class="row embed-responsive embed-responsive-16by9 m-1 p-1" id="dv_resume" style="display: none;">
-
-
-                <object class="embed-responsive-item" data="/Assets/Test.pdf" type="application/pdf"></object>
+                </div>
 
             </div>
 
 
         </div>
     </div>
+<?php require "Inc/DashboardFooter.php"; ?>
     </div>
 
 
@@ -295,5 +362,5 @@ require 'Inc/header.php';
 
     </script>
 
-<?php require "Inc/DashboardFooter.php"; ?>
+
 <?php require "Inc/PageEnd.php"; ?>
