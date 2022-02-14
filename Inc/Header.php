@@ -30,8 +30,6 @@ $EmpLocationID = $_SESSION['location_id'];*/
     <link href="../Assets/css/C.css" rel="stylesheet">
     <link href="../Assets/css/CustomCSS.css" rel="stylesheet">
 
-
-
     <link rel="stylesheet" href="../Assets/fa572/css/all.css">
 
     <link rel="stylesheet" type="text/css" href="../Assets/Plugins/DataTables/datatables.min.css"/>

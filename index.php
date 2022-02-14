@@ -10,7 +10,7 @@ require 'Code/Functions.php';
 require 'Inc/Settings.php';
 //pageProtect();
 
-require 'Inc/header.php';
+require 'Inc/Header.php';
 
 
 ?>
@@ -76,6 +76,9 @@ require 'Inc/header.php';
                         <hr>
                         <span class="font-weight-bold">Software & Systems</span>
                         <span class="font-weight-bold">Engineer</span>
+                        <span><br></span>
+                        <span class="font-weight-bold">203-810-8700</span>
+                        <span class="font-weight-bold">Gomez.david.1986@gmail.com</span>
                     </div>
                 </div>
             </div>
@@ -86,7 +89,7 @@ require 'Inc/header.php';
                     <div class="text-center">Test</div>
                     <div class="row">
                         <div class="card col-4">
-                            <img src="/Assets/images/Personal/IMG-20201101-WA0033.jpeg"
+                            <img src="/Assets/images/Personal/20210731_182250.jpg"
                                  class="card-img-top rounded img-thumbnail" alt="...">
 
                         </div>
@@ -117,9 +120,7 @@ require 'Inc/header.php';
                         </div>
                     </div>
                     <div class="row">
-                        <div class="card col-7">
 
-                        </div>
                         <div class="card col-4">
                             <div class="card-body " style="">
                                 Who I am: I'm a self-taught software developer, I have been programming professionally
@@ -144,6 +145,10 @@ require 'Inc/header.php';
 
 
                             </div>
+                        </div>
+                        <div class="card col-7">
+                            <img src="/Assets/images/Personal/IMG-20201101-WA0033.jpeg"
+                                 class="card-img-top rounded img-thumbnail" alt="...">
                         </div>
                     </div>
 
@@ -300,7 +305,7 @@ require 'Inc/header.php';
 
         </div>
     </div>
-<?php require "Inc/DashboardFooter.php"; ?>
+<?php require "Inc/Footer.php"; ?>
     </div>
 
 
@@ -361,6 +366,5 @@ require 'Inc/header.php';
 
 
     </script>
-
 
 <?php require "Inc/PageEnd.php"; ?>
