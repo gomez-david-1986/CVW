@@ -288,7 +288,68 @@ require 'Inc/Header.php';
                     <p class="text-black-50">experience</p>
                 </div>
                 <div class="row" id="dv_skills" style="display: none;">
-                    <p class="text-black-50">skills</p>
+
+                    <div class="card col-12">
+                        <div class="card-body">
+                            <ul>
+                                <li>Java 11 & 17</li>
+                                <ul>
+                                    <li>Spring</li>
+                                    <li>Spring-core</li>
+                                    <li>Spring-MVC</li>
+                                    <li>Spring-DAO</li>
+                                    <li>JPA</li>
+                                    <li>Hibernate</li>
+                                    <li>JavaFX</li>
+                                    <li>Java Networking</li>
+                                    <li>File I/O</li>
+                                </ul>
+                                <li>REST API's</li>
+                                <li>GraphQL</li>
+                                <li>PHP</li>
+                                <ul>
+                                    <li>Laravel</li>
+                                    <li>Symfony</li>
+                                    <li>API</li>
+                                    <li>Symfony</li>
+                                </ul>
+                                <li>MySql</li>
+                                <li>Postgresql</li>
+                                <li>MongoDb</li>
+                                <li>Bash</li>
+                                <li>Linux</li>
+                                <li>CentOS</li>
+                                <li>Networking</li>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                                <li>Ajax</li>
+                                <li>Python</li>
+                                <ul>
+                                    <li>Pandas</li>
+                                    <li>Matpltlib</li>
+                                    <li>Flask</li>
+                                    <li>Numpy</li>
+                                    <li>Image and Video Processing</li>
+                                    <li>Rich</li>
+                                    <li>API</li>
+                                    <li>Scripting</li>
+                                    <li>Machine Learning</li>
+                                    <li>OpenCV</li>
+                                    <li>Tenserflow</li>
+                                </ul>
+                                <li>CSV</li>
+                                <li>JSON</li>
+                                <li>XML</li>
+                                <li>Express.js</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card col-12">
+
+                    </div>
+
+
                 </div>
                 <div class="row" id="dv_hobbies" style="display: none;">
 
