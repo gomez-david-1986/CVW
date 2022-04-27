@@ -274,10 +274,7 @@ require 'Inc/Header.php';
                                     bulk of the card's content.</p>
                             </div>
                         </div>
-
                     </div>
-
-
                     <div class="row col-12">
                         <div class="card  align-content-center">
                             <div class="h2 text-center text-white">Automatization</div>
@@ -288,7 +285,6 @@ require 'Inc/Header.php';
                     <p class="text-black-50">experience</p>
                 </div>
                 <div class="row" id="dv_skills" style="display: none;">
-
                     <div class="card col-12">
                         <div class="card-body">
                             <ul>
