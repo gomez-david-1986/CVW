@@ -23,21 +23,15 @@ $EmpLocationID = $_SESSION['location_id'];*/
     <meta name="description" content="<?php echo $Settings['description'] ?>">
     <meta name="author" content="<?php echo $Settings['author'] ?>">
     <meta name="robots" content="<?php echo $Settings['robots'] ?>">
-
-
     <title><?php echo $Settings['title'] ?></title>
-
     <link href="../Assets/css/C.css" rel="stylesheet">
     <link href="../Assets/css/CustomCSS.css" rel="stylesheet">
-
     <link rel="stylesheet" href="../Assets/fa572/css/all.css">
-
     <link rel="stylesheet" type="text/css" href="../Assets/Plugins/DataTables/datatables.min.css"/>
-    <link rel="stylesheet" type="text/css" href="../Assets/Plugins/DataTables/Buttons-1.6.4/css/buttons.bootstrap4.min.css"/>
+    <link rel="stylesheet" type="text/css"
+          href="../Assets/Plugins/DataTables/Buttons-1.6.4/css/buttons.bootstrap4.min.css"/>
     <link rel="stylesheet" type="text/css" href="../Assets/Plugins/morris/morris.css"/>
     <link rel="stylesheet" type="text/css" href="../Assets/Plugins/DateRangePicker/DateRangePicker.css"/>
-
-
     <link rel="apple-touch-icon" sizes="180x180" href="../Assets/images/FavIcons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../Assets/images/FavIcons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../Assets/images/FavIcons/favicon-16x16.png">
